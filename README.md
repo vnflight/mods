@@ -30,12 +30,16 @@ the exact bytes covered by the manifest hashes. After changing an adapter,
 update its SHA-256 in every matching manifest entry and run
 `python -m unittest discover -s tests` before committing.
 
+Adapters are catalogued one folder per game id, each folder with its own
+README saying what the adapter provides and which engine versions it was
+played on; `manifest.json` names them as `<folder>/<file>.rpy`.
+
 | Game | Adapters |
 |---|---|
-| Echoes of Tomorrow (sample game) | `echoes_of_tomorrow.rpy`, `echoes_progress.rpy` |
-| Mystic Cafe (sample game) | `mystic_cafe.rpy` |
-| Roadwarden | `roadwarden.rpy`, `roadwarden_progress.rpy` |
-| Long Live the Queen | `long_live_the_queen.rpy` |
+| [Echoes of Tomorrow](https://github.com/vnflight/echoes_of_tomorrow) | `echoes_of_tomorrow/echoes_of_tomorrow.rpy`, `echoes_of_tomorrow/echoes_progress.rpy` |
+| [Mystic Cafe](https://github.com/vnflight/mystic_cafe) | `mystic_cafe/mystic_cafe.rpy` |
+| Roadwarden | `roadwarden/roadwarden.rpy`, `roadwarden/roadwarden_progress.rpy` |
+| Long Live the Queen | `long_live_the_queen/long_live_the_queen.rpy` |
 
 ## Notice for commercial-game adapters
 

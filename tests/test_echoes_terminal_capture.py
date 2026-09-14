@@ -5,7 +5,7 @@ import textwrap
 import unittest
 
 
-SOURCE = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
+SOURCE = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow" / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
 START = SOURCE.index("    def _vnf_eot_terminal_before_say(")
 END = SOURCE.index("    def _vnf_eot_install_terminal_hide_capture", START)
 HOOK = textwrap.dedent(SOURCE[START:END])

@@ -5,7 +5,7 @@ import textwrap
 
 
 def test_marcus_location_follows_map_visibility_without_stale_state():
-    source = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
+    source = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow" / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
     start = source.index("    _VNF_EOT_LOCATION_LABELS =")
     end = source.index("    def _vnf_apply_inventory_changes", start)
     screens = set()

@@ -3,7 +3,7 @@ from pathlib import Path
 import textwrap
 
 
-SOURCE = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
+SOURCE = (Path(__file__).resolve().parents[1] / "echoes_of_tomorrow" / "echoes_of_tomorrow.rpy").read_text(encoding="utf-8")
 START = SOURCE.index("    def _vnf_eot_hud_chrome_text(")
 END = SOURCE.index("    _vnf_add_screen_transform(_vnf_eot_hud_chrome_text", START)
 namespace = {}

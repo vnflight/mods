@@ -9,12 +9,12 @@
       "name": "Echoes of Tomorrow",
       "mods": [
         {
-          "file": "echoes_of_tomorrow.rpy",
+          "file": "echoes_of_tomorrow/echoes_of_tomorrow.rpy",
           "target": "vnf_inventory_stats.rpy",
           "sha256": "9f155e0ffeb657eb9205617390f33b106065c3e5578e48c0b2d4642be21b3ea3"
         },
         {
-          "file": "echoes_progress.rpy",
+          "file": "echoes_of_tomorrow/echoes_progress.rpy",
           "target": "vnf_echoes_progress.rpy",
           "sha256": "11ce54a0db4e740e39bbb6df60f50777b927060224645d4169610eb0148b772c"
         }
@@ -24,12 +24,12 @@
       "name": "Echoes of Tomorrow (Ren'Py 7.5.2)",
       "mods": [
         {
-          "file": "echoes_of_tomorrow.rpy",
+          "file": "echoes_of_tomorrow/echoes_of_tomorrow.rpy",
           "target": "vnf_inventory_stats.rpy",
           "sha256": "9f155e0ffeb657eb9205617390f33b106065c3e5578e48c0b2d4642be21b3ea3"
         },
         {
-          "file": "echoes_progress.rpy",
+          "file": "echoes_of_tomorrow/echoes_progress.rpy",
           "target": "vnf_echoes_progress.rpy",
           "sha256": "11ce54a0db4e740e39bbb6df60f50777b927060224645d4169610eb0148b772c"
         }
@@ -39,7 +39,7 @@
       "name": "Long Live the Queen",
       "mods": [
         {
-          "file": "long_live_the_queen.rpy",
+          "file": "long_live_the_queen/long_live_the_queen.rpy",
           "target": "vnf_long_live_the_queen.rpy",
           "sha256": "0a8f792fef99da1549d2929183117569b50f66848ad29d75dee0f7ef2966aa8c"
         }
@@ -49,7 +49,7 @@
       "name": "Mystic Café",
       "mods": [
         {
-          "file": "mystic_cafe.rpy",
+          "file": "mystic_cafe/mystic_cafe.rpy",
           "target": "vnf_progress.rpy",
           "sha256": "8244db68348954831d570cf874ed1344aec0b413a16146cc29e8ec01e3addaa3"
         }
@@ -59,12 +59,12 @@
       "name": "Roadwarden",
       "mods": [
         {
-          "file": "roadwarden.rpy",
+          "file": "roadwarden/roadwarden.rpy",
           "target": "vnf_inventory_stats.rpy",
           "sha256": "4bcc83bfaf2c230becb88b81093a0e2387864acb833c5d31385ef421cac444d5"
         },
         {
-          "file": "roadwarden_progress.rpy",
+          "file": "roadwarden/roadwarden_progress.rpy",
           "target": "vnf_roadwarden_progress.rpy",
           "sha256": "8cf868e53ec8e933f2af8f707ff22a1d41e030f11230c965ded29ed70cfdaad7"
         }
